@@ -14,6 +14,7 @@
 		135A8D1B1C1F8709009A0D6A /* JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D1A1C1F8709009A0D6A /* JournalUITests.swift */; };
 		135A8D2F1C1F8846009A0D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D291C1F8846009A0D6A /* AppDelegate.swift */; };
 		135A8D301C1F8846009A0D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D2A1C1F8846009A0D6A /* ViewController.swift */; };
+		135A8D321C203E94009A0D6A /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D311C203E94009A0D6A /* Journal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		135A8D1C1C1F8709009A0D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135A8D291C1F8846009A0D6A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		135A8D2A1C1F8846009A0D6A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		135A8D311C203E94009A0D6A /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				135A8D291C1F8846009A0D6A /* AppDelegate.swift */,
+				135A8D311C203E94009A0D6A /* Journal.swift */,
 				135A8D2A1C1F8846009A0D6A /* ViewController.swift */,
 			);
 			path = Classes;
@@ -298,6 +301,7 @@
 			files = (
 				135A8D301C1F8846009A0D6A /* ViewController.swift in Sources */,
 				135A8D2F1C1F8846009A0D6A /* AppDelegate.swift in Sources */,
+				135A8D321C203E94009A0D6A /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +528,7 @@
 				135A8D211C1F8709009A0D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		135A8D221C1F8709009A0D6A /* Build configuration list for PBXNativeTarget "JournalTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				135A8D241C1F8709009A0D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		135A8D251C1F8709009A0D6A /* Build configuration list for PBXNativeTarget "JournalUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				135A8D271C1F8709009A0D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
