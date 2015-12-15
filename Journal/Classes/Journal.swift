@@ -33,3 +33,25 @@ class Entry : NSObject {
         super.init()
     }
 }
+
+// A journal.
+class Journal: NSObject {
+    // The title
+    let title: String
+    
+    // The entries
+    let entries: [Entry]
+    
+    // Initialize with a title.
+    init(title: String) {
+        self.title = title
+        self.entries = []
+        super.init()
+    }
+    
+    init(title: String, entries: [Entry]) {
+        self.title = title
+        self.entries = entries
+        super.init()
+    }
+}
