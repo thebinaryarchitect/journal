@@ -15,6 +15,7 @@
 		135A8D2F1C1F8846009A0D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D291C1F8846009A0D6A /* AppDelegate.swift */; };
 		135A8D301C1F8846009A0D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D2A1C1F8846009A0D6A /* ViewController.swift */; };
 		135A8D321C203E94009A0D6A /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D311C203E94009A0D6A /* Journal.swift */; };
+		135A8D341C20C5D4009A0D6A /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A8D331C20C5D4009A0D6A /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		135A8D291C1F8846009A0D6A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		135A8D2A1C1F8846009A0D6A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		135A8D311C203E94009A0D6A /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		135A8D331C20C5D4009A0D6A /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				135A8D291C1F8846009A0D6A /* AppDelegate.swift */,
 				135A8D311C203E94009A0D6A /* Journal.swift */,
 				135A8D2A1C1F8846009A0D6A /* ViewController.swift */,
+				135A8D331C20C5D4009A0D6A /* JournalViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135A8D341C20C5D4009A0D6A /* JournalViewController.swift in Sources */,
 				135A8D301C1F8846009A0D6A /* ViewController.swift in Sources */,
 				135A8D2F1C1F8846009A0D6A /* AppDelegate.swift in Sources */,
 				135A8D321C203E94009A0D6A /* Journal.swift in Sources */,
